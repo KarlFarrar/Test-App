@@ -84,7 +84,7 @@ GEM
     date (3.4.1)
     diff-lcs (1.4.4)
     erubi (1.13.1)
-    ffi (1.17.1-x86_64-linux-gnu)
+    ffi (1.17.1-x86_64-linux)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
@@ -211,6 +211,9 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
+    seed_dump (3.3.1)
+      activerecord (>= 4)
+      activesupport (>= 4)
     selenium-webdriver (4.10.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
@@ -275,6 +278,7 @@ DEPENDENCIES
   rspec-rails
   rubocop
   sass-rails (>= 6)
+  seed_dump
   selenium-webdriver
   spring
   turbolinks (~> 5)
@@ -284,7 +288,7 @@ DEPENDENCIES
   webpacker (~> 5.0)
 
 RUBY VERSION
-   ruby 3.2.2p53
+   ruby 3.0.2p107
 
 BUNDLED WITH
    2.2.28
